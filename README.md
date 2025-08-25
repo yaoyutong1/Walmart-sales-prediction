@@ -1,2 +1,2 @@
 基于沃尔玛历史销售数据，利用多变量时间序列分析与深度学习模型（LSTM），预测45+ 沃尔玛商店销售额
-
+ ![项目Logo](https://github.com/YourUsername/YourRepository/blob/main/images/logo.png)
