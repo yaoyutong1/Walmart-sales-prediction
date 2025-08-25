@@ -96,7 +96,7 @@ class WalmartSalesPredictor:
         train_y = self.target_scaler.fit_transform(train_y.reshape(-1, 1)).flatten()
         test_y = self.target_scaler.transform(test_y.reshape(-1, 1)).flatten()
 
-        # 注意：store_id 作为单个输入
+        # store_id 作为单个输入
         self.train_inputs = [train_store, train_X]
         self.test_inputs = [test_store, test_X]
         self.train_labels, self.test_labels = train_y, test_y
